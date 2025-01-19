@@ -8,7 +8,6 @@ export const unstable_settings = {
 };
 
 
-
 export default function RootLayout() {
   const [loaded] = useFonts({
     Gilroy: require('../assets/fonts/Gilroy-Regular.ttf'),
@@ -21,9 +20,7 @@ export default function RootLayout() {
 
   return (
     <Stack initialRouteName="home" screenOptions={{
-      headerStyle: { backgroundColor: "#fcba03" },
-      contentStyle: { backgroundColor: "#FFFFFF" }, // Screen background
-      headerShadowVisible: false, // Optional: Hide header shadow
+      contentStyle: { backgroundColor: "#fff" }
     }}>
       <Stack.Screen name="home" />
     </Stack>
