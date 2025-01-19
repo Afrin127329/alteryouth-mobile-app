@@ -4,7 +4,7 @@
     "slug": "alteryouth-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icons/play-btn.svg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -20,7 +20,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "https://alteryouth.blob.core.windows.net/media/static/favicon.ico"
     },
     "plugins": [
       "expo-router",
